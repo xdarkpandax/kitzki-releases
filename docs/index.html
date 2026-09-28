@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kitzki: grab it, mark it, paste it</title>
     <meta name="description" content="Kitzki is a screenshot tool for Mac and Windows: capture, mark up, blur, combine shots, and find anything you copied again." />
-    <script type="module" crossorigin src="./assets/index-BuE6RGwB.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-BGm9SeFC.css">
+    <script type="module" crossorigin src="./assets/index-BVCF8UlT.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CvVbhqJQ.css">
   </head>
   <body>
 
@@ -26,8 +26,8 @@
       </ul>
     </div>
     <div class="dl web-only">
-      <a class="primary" href="https://github.com/xdarkpandax/kitzki-releases/releases/latest"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Download for Mac</a>
-      <a href="https://github.com/xdarkpandax/kitzki-releases/releases/latest"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Download for Windows</a>
+      <a class="primary" data-os="mac" href="https://github.com/xdarkpandax/kitzki-releases/releases/latest"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Download for Mac</a>
+      <a data-os="win" href="https://github.com/xdarkpandax/kitzki-releases/releases/latest"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Download for Windows</a>
       <small>Free. Apple Silicon and Intel, Windows 10 and 11. Updates itself.</small>
     </div>
   </section>
@@ -42,6 +42,7 @@
   <section class="tour" aria-label="Kitzki tour">
     <nav class="chapters" id="chapters" aria-label="Chapters"></nav>
     <div class="viewer">
+      <div class="osbar"><span>Show it on</span><div class="seg" id="os" role="radiogroup" aria-label="Show shortcuts for"><button type="button" role="radio" data-os="mac">Mac</button><button type="button" role="radio" data-os="win">Windows</button></div></div>
       <div class="fit" id="fit" data-w="960" data-h="560"><div class="natural"><div class="stage" id="stage" role="img" aria-label="Animated demonstration"></div></div></div>
       <div class="progress" aria-hidden="true"><i id="prog"></i></div>
       <div class="about">

@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kitzki: grab it, mark it, paste it</title>
+    <meta name="description" content="Kitzki is a screenshot tool for Mac and Windows: capture, mark up, blur, combine shots, and find anything you copied again." />
+    <script type="module" crossorigin src="./assets/index-BuE6RGwB.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-BGm9SeFC.css">
+  </head>
+  <body>
+
+
+<div class="wrap">
+  <div class="closebar app-only"><button type="button" id="close">Close</button></div>
+  <section class="hero">
+    <div>
+      <div class="brand"><i aria-hidden="true"></i>Kitzki</div>
+      <h1>Grab it. Mark it. Paste it.</h1>
+      <p class="lede">A screenshot tool for Mac and Windows. Press a key, drag over anything, press Enter. Draw on it, blur what is private, combine a few shots, and find anything you copied again later.</p>
+      <ul class="highlights">
+        <li><b>Screenshots</b> in two seconds</li>
+        <li><b>Arrows, text, blur</b> before you copy</li>
+        <li><b>Everything you copy</b> one shortcut away <kbd id="hlKeys"></kbd></li>
+        <li><b>Private</b> stays on your computer, encrypted</li>
+      </ul>
+    </div>
+    <div class="dl web-only">
+      <a class="primary" href="https://github.com/xdarkpandax/kitzki-releases/releases/latest"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Download for Mac</a>
+      <a href="https://github.com/xdarkpandax/kitzki-releases/releases/latest"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>Download for Windows</a>
+      <small>Free. Apple Silicon and Intel, Windows 10 and 11. Updates itself.</small>
+    </div>
+  </section>
+
+  <div class="whatsnew" id="whatsnew" role="region" aria-label="What's new">
+    <span class="badge">NEW</span>
+    <p id="whatsnewText"><b>Kitzki now remembers everything you copy.</b> Text, links, images and files are one shortcut away. Watch how below, then try it.</p>
+    <button type="button" class="primary" id="tryClips">Try it now</button>
+    <button type="button" id="gotIt">Got it</button>
+  </div>
+
+  <section class="tour" aria-label="Kitzki tour">
+    <nav class="chapters" id="chapters" aria-label="Chapters"></nav>
+    <div class="viewer">
+      <div class="fit" id="fit" data-w="960" data-h="560"><div class="natural"><div class="stage" id="stage" role="img" aria-label="Animated demonstration"></div></div></div>
+      <div class="progress" aria-hidden="true"><i id="prog"></i></div>
+      <div class="about">
+        <div><h2 id="title"></h2><p id="desc"></p></div>
+        <div class="playbar"><button type="button" class="pbtn" id="prev">Previous</button><button type="button" class="pbtn" id="pause">Pause</button><button type="button" class="pbtn" id="next">Next</button></div>
+        <div class="keys" id="keys"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="foot"><span>Kitzki keeps everything on your computer. No account, no uploads.</span><span>macOS 12+ · Windows 10 and 11</span></footer>
+</div>
+  </body>
+</html>

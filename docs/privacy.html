@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kitzki Privacy</title>
+<style>
+  :root { --bg: #ffffff; --ink: #1b1d22; --muted: #5d636e; --line: #e3e5ea; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #15171b; --ink: #eceef2; --muted: #a2a8b3; --line: #2c3038; } }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 28px; margin: 0 0 4px; }
+  h2 { font-size: 18px; margin: 32px 0 8px; }
+  p, li { color: var(--ink); }
+  .date { color: var(--muted); margin: 0 0 24px; }
+  a { color: inherit; }
+  hr { border: 0; border-top: 1px solid var(--line); margin: 32px 0; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Kitzki privacy policy</h1>
+  <p class="date">Last updated October 21, 2026</p>
+
+  <p>Kitzki is a screenshot tool that runs on your computer. It has no accounts, no ads, no analytics
+  and no telemetry. Your screenshots and clipboard history never leave your computer unless you
+  share them yourself.</p>
+
+  <h2>What stays on your computer</h2>
+  <ul>
+    <li><strong>Screenshots.</strong> Kitzki captures the screen only when you press the capture hotkey
+    or choose a capture from its menu. Captures go to your clipboard, or to the folder you choose.</li>
+    <li><strong>Clipboard history.</strong> Kitzki keeps your recent copies (by default the last 500,
+    for up to 30 days) so you can paste them again. The history is encrypted on disk with a key kept in your system's credential
+    store (Keychain on macOS, Credential Manager on Windows). Copies that apps mark as private, such as
+    passwords, are skipped, as are copies from password managers. You can clear the history, change
+    the limits or turn it off in Settings.</li>
+    <li><strong>Settings and logs.</strong> Your preferences and a diagnostic log are stored locally.
+    The log records events such as the names of saved screenshots, never their content or what you
+    copied. Kitzki never sends the log anywhere; you can send it to us
+    yourself when reporting a problem.</li>
+  </ul>
+
+  <h2>Network use</h2>
+  <p>Copies downloaded from this website check GitHub for new versions of Kitzki. That request
+  includes nothing about you beyond what any web request carries, such as your IP address, which
+  GitHub handles under its own privacy policy. Copies installed from the Microsoft Store are updated
+  by the Store and make no such check.</p>
+
+  <h2>Permissions</h2>
+  <p>On macOS Kitzki asks for Screen Recording, so it can capture the screen, and optionally
+  Accessibility, so it can paste for you. On Windows it uses Windows Hello only to unlock older
+  clipboard history; Kitzki never sees your PIN or biometric data.</p>
+
+  <h2>Children</h2>
+  <p>Kitzki does not collect personal information from anyone, including children.</p>
+
+  <h2>Changes and contact</h2>
+  <p>If this policy changes, the new version will be posted on this page with a new date. Questions:
+  open an issue at <a href="https://github.com/xdarkpandax/kitzki-releases/issues">github.com/xdarkpandax/kitzki-releases</a>.</p>
+</main>
+</body>
+</html>

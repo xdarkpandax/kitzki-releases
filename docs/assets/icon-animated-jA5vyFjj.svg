@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="none">
+  <defs>
+    <linearGradient id="ink" x1="512" y1="100" x2="512" y2="924" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#293140"/><stop offset="1" stop-color="#141821"/>
+    </linearGradient>
+    <path id="k" d="M340 300H460V474L612 300H758L574 498L770 740H620L460 548V740H340Z"/>
+    <clipPath id="sel"><rect x="184" y="184" width="64" height="64"><animate attributeName="width" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.1;0.5;0.6;0.68;0.86;0.94;1" values="64;64;590;590;590;590;590;64" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/><animate attributeName="height" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.1;0.5;0.6;0.68;0.86;0.94;1" values="64;64;560;560;560;560;560;64" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/></rect></clipPath>
+  </defs>
+  <path d="M350 100H674C854 100 924 170 924 350V674C924 854 854 924 674 924H350C170 924 100 854 100 674V350C100 170 170 100 350 100Z" fill="url(#ink)"/>
+  <use href="#k" fill="#eef0f4" opacity="0.32"/>
+  <g opacity="0"><animate attributeName="opacity" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.04;0.1;0.86;0.94;1" values="0;0;1;1;0;0"/>
+    <use href="#k" fill="#eef0f4" clip-path="url(#sel)"/>
+    <rect x="184" y="184" width="64" height="64" fill="#fff" opacity="0"><animate attributeName="width" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.1;0.5;0.6;0.68;0.86;0.94;1" values="64;64;590;590;590;590;590;64" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/><animate attributeName="height" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.1;0.5;0.6;0.68;0.86;0.94;1" values="64;64;560;560;560;560;560;64" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/><animate attributeName="opacity" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.6;0.63;0.74;1" values="0;0;0.6;0;0"/></rect>
+    <rect x="184" y="184" width="64" height="64" stroke="#0a84ff" stroke-width="36" stroke-dasharray="84 44"><animate attributeName="width" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.1;0.5;0.6;0.68;0.86;0.94;1" values="64;64;590;590;590;590;590;64" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/><animate attributeName="height" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.1;0.5;0.6;0.68;0.86;0.94;1" values="64;64;560;560;560;560;560;64" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/><animate attributeName="stroke-dashoffset" dur="0.9s" repeatCount="indefinite" values="0;-128"/></rect>
+    <g fill="#eef0f4" stroke="#0a84ff" stroke-width="16">
+      <rect x="152" y="152" width="64" height="64"/>
+      <rect x="216" y="152" width="64" height="64"><animateTransform attributeName="transform" type="translate" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.1;0.5;0.6;0.68;0.86;0.94;1" values="0 0;0 0;526 0;526 0;526 0;526 0;526 0;0 0" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/></rect>
+      <rect x="152" y="216" width="64" height="64"><animateTransform attributeName="transform" type="translate" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.1;0.5;0.6;0.68;0.86;0.94;1" values="0 0;0 0;0 496;0 496;0 496;0 496;0 496;0 0" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/></rect>
+    </g>
+    <g><animateTransform attributeName="transform" type="translate" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.1;0.5;0.6;0.68;0.86;0.94;1" values="-416 -384;-416 -384;110 112;110 112;110 112;110 112;110 112;-416 -384" calcMode="spline" keySplines="0 0 1 1;0.45 0 0.2 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1;0 0 1 1"/>
+      <path d="M664 632L776 744M776 744V666M776 744H698" stroke="#0a84ff" stroke-width="44" stroke-linecap="round" stroke-linejoin="round" opacity="1"><animate attributeName="opacity" dur="3.6s" repeatCount="indefinite" keyTimes="0;0.4;0.5;0.94;1" values="1;1;0;0;1"/></path>
+      <rect x="632" y="600" width="64" height="64" fill="#eef0f4" stroke="#0a84ff" stroke-width="16"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" fill="none">
+  <!-- 16 and 32 px artwork: solid frame, full-brightness K, one handle. Dashes and the dimmed K blur at these sizes. -->
+  <defs>
+    <linearGradient id="ink" x1="512" y1="100" x2="512" y2="924" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#293140"/><stop offset="1" stop-color="#141821"/>
+    </linearGradient>
+  </defs>
+  <path d="M350 100H674C854 100 924 170 924 350V674C924 854 854 924 674 924H350C170 924 100 854 100 674V350C100 170 170 100 350 100Z" fill="url(#ink)"/>
+  <rect x="210" y="210" width="560" height="560" stroke="#0a84ff" stroke-width="64"/>
+  <path d="M352 330H468V488L604 330H738L578 512L748 694H610L468 540V694H352Z" fill="#eef0f4"/>
+  <rect x="706" y="706" width="128" height="128" fill="#eef0f4" stroke="#0a84ff" stroke-width="32"/>
+</svg>
